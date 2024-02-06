@@ -1,7 +1,6 @@
 version: '3.8'
 services:
-  mysql:
-    platform: linux/x86-64
+  db:
     image: postgres:latest
     restart: always
     volumes:
